@@ -1,0 +1,26 @@
+{
+  "id": "transport",
+  "name_en": "Transport", "name_bn": "পরিবহন", "icon": "🚌",
+  "description": "Routes, fares and emergency helplines",
+  "hints": ["Dhaka to Bogra route", "ঢাকা থেকে সিলেট বাস ভাড়া কত?", "bus harassment helpline"],
+  "search_suffix": "Bangladesh",
+  "trusted_sources": [
+    {"domain": "brta.gov.bd", "trust": 0.95},
+    {"domain": "police.gov.bd", "trust": 0.95},
+    {"domain": "rhd.gov.bd", "trust": 0.95},
+    {"domain": "railway.gov.bd", "trust": 0.9}
+  ],
+  "default_feature": "route_guide",
+  "features": [
+    {"id": "emergency", "name_en": "Passenger Emergency & Helplines", "name_bn": "জরুরি হেল্পলাইন",
+     "handler": "emergency", "dataset": "helplines.json",
+     "keywords": ["emergency", "police", "helpline", "harass", "complaint", "999", "জরুরি", "পুলিশ", "হয়রানি", "অভিযোগ", "হেল্পলাইন"]},
+    {"id": "fare_calc", "name_en": "Fare Calculator", "name_bn": "ভাড়া নির্ধারণ",
+     "handler": "fare_calc", "dataset": "routes.json",
+     "keywords": ["fare", "cost", "ticket", "ভাড়া", "টিকিট", "খরচ"]},
+    {"id": "route_guide", "name_en": "Route & Navigation Guide", "name_bn": "রুট ও দিকনির্দেশনা",
+     "handler": "route_guide", "dataset": "routes.json",
+     "keywords": ["route", "road", "way", "distance", "map", "রুট", "রাস্তা", "দূরত্ব", "যাব", "থেকে"]}
+  ],
+  "guardrails": {"refuse_if_no_evidence": true, "blocked_patterns": [], "disclaimer_en": "Fares and times are estimates. Ask for a printed ticket/receipt.", "disclaimer_bn": "ভাড়া ও সময় আনুমানিক। টিকিট/রসিদ চেয়ে নিন।"}
+}

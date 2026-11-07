@@ -1,0 +1,22 @@
+{
+  "id": "agriculture",
+  "name_en": "Agriculture", "name_bn": "কৃষি", "icon": "🌾",
+  "description": "Wage rates and best crop selling prices",
+  "hints": ["বগুড়ায় আজকে ধানের দাম ও মজুরি কত?", "Where is potato price highest today?", "Rajshahi daily labour wage"],
+  "search_suffix": "Bangladesh",
+  "trusted_sources": [
+    {"domain": "dam.gov.bd", "trust": 0.95},
+    {"domain": "dae.gov.bd", "trust": 0.95},
+    {"domain": "bbs.gov.bd", "trust": 0.95}
+  ],
+  "default_feature": "crop_price",
+  "features": [
+    {"id": "wage_rate", "name_en": "Agricultural Wage Rate Finder", "name_bn": "মজুরি জানুন",
+     "handler": "wage_rate", "dataset": "wages.json",
+     "keywords": ["wage", "labour", "labor", "worker", "মজুরি", "শ্রমিক", "দিনমজুর"]},
+    {"id": "crop_price", "name_en": "Crop High-Price Location Finder", "name_bn": "সর্বোচ্চ দামের স্থান",
+     "handler": "crop_price", "dataset": "crop_prices.json",
+     "keywords": ["price", "rate", "market", "sell", "দাম", "বাজার", "মূল্য", "ধান", "চাল", "আলু", "পেঁয়াজ", "টমেটো", "পাট", "rice", "potato", "onion", "tomato", "paddy", "jute"]}
+  ],
+  "guardrails": {"refuse_if_no_evidence": true, "blocked_patterns": [], "disclaimer_en": "Prices change daily. Confirm at your local market before selling.", "disclaimer_bn": "দাম প্রতিদিন বদলায়। বিক্রির আগে স্থানীয় বাজারে যাচাই করুন।"}
+}

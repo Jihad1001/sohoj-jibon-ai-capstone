@@ -1,0 +1,159 @@
+{
+ "note": "SAMPLE SNAPSHOT for development. Replace with real scraped/official data before demo. Check current doctor list at dghs.gov.bd.",
+ "source_url": "https://dghs.gov.bd/",
+ "snapshot_date": "2026-10",
+ "symptom_map": [
+  {
+   "specialty": "Orthopedic / Physiatrist",
+   "specialty_bn": "অর্থোপেডিক / ফিজিয়াট্রিস্ট",
+   "keywords": [
+    "back pain",
+    "joint",
+    "knee",
+    "bone",
+    "পিঠের ব্যথা",
+    "পিঠে",
+    "হাঁটু",
+    "জোড়া",
+    "হাড়",
+    "কোমর"
+   ]
+  },
+  {
+   "specialty": "Cardiologist",
+   "specialty_bn": "হৃদরোগ বিশেষজ্ঞ",
+   "keywords": [
+    "chest pain",
+    "heart",
+    "palpitation",
+    "বুকে ব্যথা",
+    "বুক ধড়ফড়",
+    "হার্ট"
+   ]
+  },
+  {
+   "specialty": "Medicine Specialist",
+   "specialty_bn": "মেডিসিন বিশেষজ্ঞ",
+   "keywords": [
+    "fever",
+    "cough",
+    "cold",
+    "weakness",
+    "জ্বর",
+    "কাশি",
+    "সর্দি",
+    "দুর্বল"
+   ]
+  },
+  {
+   "specialty": "Gastroenterologist",
+   "specialty_bn": "গ্যাস্ট্রোএন্টারোলজিস্ট",
+   "keywords": [
+    "stomach",
+    "gastric",
+    "acidity",
+    "vomit",
+    "পেট ব্যথা",
+    "গ্যাস",
+    "বমি",
+    "অম্বল"
+   ]
+  },
+  {
+   "specialty": "Dermatologist",
+   "specialty_bn": "চর্মরোগ বিশেষজ্ঞ",
+   "keywords": [
+    "skin",
+    "itch",
+    "rash",
+    "চর্ম",
+    "চুলকানি",
+    "ফুসকুড়ি"
+   ]
+  },
+  {
+   "specialty": "Ophthalmologist",
+   "specialty_bn": "চক্ষু বিশেষজ্ঞ",
+   "keywords": [
+    "eye",
+    "vision",
+    "চোখ",
+    "চোখে"
+   ]
+  },
+  {
+   "specialty": "Neurologist",
+   "specialty_bn": "নিউরোলজিস্ট",
+   "keywords": [
+    "headache",
+    "migraine",
+    "dizziness",
+    "মাথা ব্যথা",
+    "মাথা ঘোরা",
+    "মাইগ্রেন"
+   ]
+  }
+ ],
+ "providers": [
+  {
+   "specialty": "Orthopedic / Physiatrist",
+   "name": "National Institute of Traumatology & Orthopaedic Rehabilitation (NITOR)",
+   "district": "Dhaka",
+   "type": "Public hospital"
+  },
+  {
+   "specialty": "Orthopedic / Physiatrist",
+   "name": "Shaheed Ziaur Rahman Medical College Hospital",
+   "district": "Bogra",
+   "type": "Public hospital"
+  },
+  {
+   "specialty": "Cardiologist",
+   "name": "National Institute of Cardiovascular Diseases (NICVD)",
+   "district": "Dhaka",
+   "type": "Public hospital"
+  },
+  {
+   "specialty": "Cardiologist",
+   "name": "Shaheed Ziaur Rahman Medical College Hospital",
+   "district": "Bogra",
+   "type": "Public hospital"
+  },
+  {
+   "specialty": "Medicine Specialist",
+   "name": "Dhaka Medical College Hospital",
+   "district": "Dhaka",
+   "type": "Public hospital"
+  },
+  {
+   "specialty": "Medicine Specialist",
+   "name": "Rajshahi Medical College Hospital",
+   "district": "Rajshahi",
+   "type": "Public hospital"
+  },
+  {
+   "specialty": "Gastroenterologist",
+   "name": "Bangabandhu Sheikh Mujib Medical University (BSMMU)",
+   "district": "Dhaka",
+   "type": "Public university hospital"
+  },
+  {
+   "specialty": "Dermatologist",
+   "name": "Dhaka Medical College Hospital (Dermatology Dept)",
+   "district": "Dhaka",
+   "type": "Public hospital"
+  },
+  {
+   "specialty": "Ophthalmologist",
+   "name": "National Institute of Ophthalmology & Hospital",
+   "district": "Dhaka",
+   "type": "Public hospital"
+  },
+  {
+   "specialty": "Neurologist",
+   "name": "National Institute of Neurosciences & Hospital",
+   "district": "Dhaka",
+   "type": "Public hospital"
+  }
+ ]
+}

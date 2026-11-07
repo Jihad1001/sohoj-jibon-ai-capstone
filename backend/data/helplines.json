@@ -1,0 +1,41 @@
+{
+ "note": "Verify numbers on official portals.",
+ "source_url": "https://police.gov.bd/",
+ "snapshot_date": "2026-10",
+ "helplines": [
+  {
+   "name": "National Emergency Service",
+   "name_bn": "জাতীয় জরুরি সেবা",
+   "number": "999",
+   "use": "Police, fire, ambulance"
+  },
+  {
+   "name": "Women & Children Helpline",
+   "name_bn": "নারী ও শিশু হেল্পলাইন",
+   "number": "109",
+   "use": "Violence / harassment"
+  },
+  {
+   "name": "National Information Service",
+   "name_bn": "জাতীয় তথ্য সেবা",
+   "number": "333",
+   "use": "Government services & complaints"
+  },
+  {
+   "name": "Health Call Center",
+   "name_bn": "স্বাস্থ্য বাতায়ন",
+   "number": "16263",
+   "use": "Health advice line"
+  }
+ ],
+ "portals": [
+  {
+   "name": "BRTA passenger complaint portal",
+   "url": "https://brta.gov.bd/"
+  },
+  {
+   "name": "Bangladesh Police portal",
+   "url": "https://police.gov.bd/"
+  }
+ ]
+}

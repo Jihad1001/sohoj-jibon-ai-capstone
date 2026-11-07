@@ -1,0 +1,174 @@
+{
+ "note": "SAMPLE SNAPSHOT for development. Replace with real scraped/official data before demo.",
+ "source_url": "https://dam.gov.bd/",
+ "snapshot_date": "2026-10",
+ "crops": [
+  {
+   "id": "rice",
+   "name": "Rice (Coarse)",
+   "aliases": [
+    "rice",
+    "চাল"
+   ],
+   "unit": "kg",
+   "markets": [
+    {
+     "market": "Dhaka (Kawran Bazar)",
+     "district": "Dhaka",
+     "price": 56
+    },
+    {
+     "market": "Bogra Sadar",
+     "district": "Bogra",
+     "price": 52
+    },
+    {
+     "market": "Rajshahi Sadar",
+     "district": "Rajshahi",
+     "price": 51
+    },
+    {
+     "market": "Chattogram (Khatunganj)",
+     "district": "Chattogram",
+     "price": 55
+    }
+   ]
+  },
+  {
+   "id": "paddy",
+   "name": "Paddy",
+   "aliases": [
+    "paddy",
+    "ধান"
+   ],
+   "unit": "kg",
+   "markets": [
+    {
+     "market": "Bogra Sadar",
+     "district": "Bogra",
+     "price": 30
+    },
+    {
+     "market": "Dinajpur Sadar",
+     "district": "Dinajpur",
+     "price": 29
+    },
+    {
+     "market": "Mymensingh Sadar",
+     "district": "Mymensingh",
+     "price": 31
+    }
+   ]
+  },
+  {
+   "id": "potato",
+   "name": "Potato",
+   "aliases": [
+    "potato",
+    "আলু"
+   ],
+   "unit": "kg",
+   "markets": [
+    {
+     "market": "Dhaka (Kawran Bazar)",
+     "district": "Dhaka",
+     "price": 38
+    },
+    {
+     "market": "Bogra Sadar",
+     "district": "Bogra",
+     "price": 30
+    },
+    {
+     "market": "Rangpur Sadar",
+     "district": "Rangpur",
+     "price": 28
+    },
+    {
+     "market": "Chattogram (Khatunganj)",
+     "district": "Chattogram",
+     "price": 40
+    }
+   ]
+  },
+  {
+   "id": "onion",
+   "name": "Onion",
+   "aliases": [
+    "onion",
+    "পেঁয়াজ",
+    "পেয়াজ"
+   ],
+   "unit": "kg",
+   "markets": [
+    {
+     "market": "Dhaka (Kawran Bazar)",
+     "district": "Dhaka",
+     "price": 75
+    },
+    {
+     "market": "Pabna Sadar",
+     "district": "Pabna",
+     "price": 65
+    },
+    {
+     "market": "Faridpur Sadar",
+     "district": "Faridpur",
+     "price": 68
+    }
+   ]
+  },
+  {
+   "id": "tomato",
+   "name": "Tomato",
+   "aliases": [
+    "tomato",
+    "টমেটো"
+   ],
+   "unit": "kg",
+   "markets": [
+    {
+     "market": "Dhaka (Kawran Bazar)",
+     "district": "Dhaka",
+     "price": 60
+    },
+    {
+     "market": "Bogra Sadar",
+     "district": "Bogra",
+     "price": 50
+    },
+    {
+     "market": "Jashore Sadar",
+     "district": "Jashore",
+     "price": 48
+    }
+   ]
+  },
+  {
+   "id": "jute",
+   "name": "Jute (raw)",
+   "aliases": [
+    "jute",
+    "পাট"
+   ],
+   "unit": "maund(40kg)",
+   "markets": [
+    {
+     "market": "Faridpur Sadar",
+     "district": "Faridpur",
+     "price": 3600
+    },
+    {
+     "market": "Rangpur Sadar",
+     "district": "Rangpur",
+     "price": 3500
+    },
+    {
+     "market": "Narayanganj",
+     "district": "Narayanganj",
+     "price": 3800
+    }
+   ]
+  }
+ ]
+}

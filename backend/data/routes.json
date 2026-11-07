@@ -1,0 +1,123 @@
+{
+ "note": "SAMPLE SNAPSHOT for development. Replace with real scraped/official data before demo. Distances approximate; verify with RHD/BRTA.",
+ "source_url": "https://rhd.gov.bd/",
+ "fare_source_url": "https://brta.gov.bd/",
+ "snapshot_date": "2026-10",
+ "fare_rates_per_km": {
+  "Non-AC Bus": 2.45,
+  "AC Bus": 3.5,
+  "Train (Shovan)": 1.2
+ },
+ "routes": [
+  {
+   "from": "Dhaka",
+   "to": "Bogra",
+   "distance_km": 195,
+   "hours": 4.5,
+   "modes": [
+    "Bus",
+    "Train"
+   ],
+   "road_note": "Use national highway; check traffic before travel."
+  },
+  {
+   "from": "Dhaka",
+   "to": "Chattogram",
+   "distance_km": 245,
+   "hours": 6,
+   "modes": [
+    "Bus",
+    "Train"
+   ],
+   "road_note": "Use national highway; check traffic before travel."
+  },
+  {
+   "from": "Dhaka",
+   "to": "Sylhet",
+   "distance_km": 240,
+   "hours": 6,
+   "modes": [
+    "Bus",
+    "Train"
+   ],
+   "road_note": "Use national highway; check traffic before travel."
+  },
+  {
+   "from": "Dhaka",
+   "to": "Rajshahi",
+   "distance_km": 255,
+   "hours": 6,
+   "modes": [
+    "Bus",
+    "Train"
+   ],
+   "road_note": "Use national highway; check traffic before travel."
+  },
+  {
+   "from": "Dhaka",
+   "to": "Khulna",
+   "distance_km": 270,
+   "hours": 7,
+   "modes": [
+    "Bus",
+    "Train"
+   ],
+   "road_note": "Use national highway; check traffic before travel."
+  },
+  {
+   "from": "Dhaka",
+   "to": "Rangpur",
+   "distance_km": 300,
+   "hours": 7,
+   "modes": [
+    "Bus",
+    "Train"
+   ],
+   "road_note": "Use national highway; check traffic before travel."
+  },
+  {
+   "from": "Dhaka",
+   "to": "Cox's Bazar",
+   "distance_km": 400,
+   "hours": 9,
+   "modes": [
+    "Bus",
+    "Train"
+   ],
+   "road_note": "Use national highway; check traffic before travel."
+  },
+  {
+   "from": "Dhaka",
+   "to": "Mymensingh",
+   "distance_km": 120,
+   "hours": 3,
+   "modes": [
+    "Bus",
+    "Train"
+   ],
+   "road_note": "Use national highway; check traffic before travel."
+  },
+  {
+   "from": "Bogra",
+   "to": "Rajshahi",
+   "distance_km": 100,
+   "hours": 2.5,
+   "modes": [
+    "Bus",
+    "Bus"
+   ],
+   "road_note": "Use national highway; check traffic before travel."
+  },
+  {
+   "from": "Bogra",
+   "to": "Rangpur",
+   "distance_km": 95,
+   "hours": 2.5,
+   "modes": [
+    "Bus",
+    "Bus"
+   ],
+   "road_note": "Use national highway; check traffic before travel."
+  }
+ ]
+}

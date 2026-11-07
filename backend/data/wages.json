@@ -1,0 +1,77 @@
+{
+ "note": "SAMPLE SNAPSHOT for development. Replace with real scraped/official data before demo.",
+ "source_url": "https://bbs.gov.bd/",
+ "snapshot_date": "2026-10",
+ "rows": [
+  {
+   "district": "Bogra",
+   "min": 550,
+   "max": 750,
+   "avg": 650,
+   "season": "current"
+  },
+  {
+   "district": "Dhaka",
+   "min": 650,
+   "max": 900,
+   "avg": 775,
+   "season": "current"
+  },
+  {
+   "district": "Rajshahi",
+   "min": 500,
+   "max": 700,
+   "avg": 600,
+   "season": "current"
+  },
+  {
+   "district": "Rangpur",
+   "min": 450,
+   "max": 650,
+   "avg": 550,
+   "season": "current"
+  },
+  {
+   "district": "Dinajpur",
+   "min": 450,
+   "max": 650,
+   "avg": 550,
+   "season": "current"
+  },
+  {
+   "district": "Mymensingh",
+   "min": 500,
+   "max": 700,
+   "avg": 600,
+   "season": "current"
+  },
+  {
+   "district": "Khulna",
+   "min": 500,
+   "max": 700,
+   "avg": 600,
+   "season": "current"
+  },
+  {
+   "district": "Chattogram",
+   "min": 600,
+   "max": 800,
+   "avg": 700,
+   "season": "current"
+  },
+  {
+   "district": "Sylhet",
+   "min": 600,
+   "max": 800,
+   "avg": 700,
+   "season": "current"
+  },
+  {
+   "district": "Barishal",
+   "min": 500,
+   "max": 700,
+   "avg": 600,
+   "season": "current"
+  }
+ ]
+}

@@ -1,0 +1,52 @@
+{
+ "note": "SAMPLE SNAPSHOT for development. Replace with real scraped/official data before demo. Verify every price at dgda.gov.bd.",
+ "source_url": "https://dgda.gov.bd/",
+ "snapshot_date": "2026-10",
+ "medicines": [
+  {
+   "brand": "Napa 500mg",
+   "generic": "Paracetamol",
+   "company": "Beximco",
+   "unit": "tablet",
+   "mrp": 1.2,
+   "aliases": [
+    "napa",
+    "নাপা"
+   ]
+  },
+  {
+   "brand": "Ace 500mg",
+   "generic": "Paracetamol",
+   "company": "Square",
+   "unit": "tablet",
+   "mrp": 1.2,
+   "aliases": [
+    "ace",
+    "এইস"
+   ]
+  },
+  {
+   "brand": "Seclo 20mg",
+   "generic": "Omeprazole",
+   "company": "Square",
+   "unit": "capsule",
+   "mrp": 7.0,
+   "aliases": [
+    "seclo",
+    "সেক্লো"
+   ]
+  },
+  {
+   "brand": "Histacin 10mg",
+   "generic": "Cetirizine",
+   "company": "Square",
+   "unit": "tablet",
+   "mrp": 2.0,
+   "aliases": [
+    "histacin",
+    "cetirizine",
+    "হিস্টাসিন"
+   ]
+  }
+ ]
+}

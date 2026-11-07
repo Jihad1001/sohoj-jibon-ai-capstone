@@ -1,0 +1,29 @@
+{
+  "id": "health",
+  "name_en": "Health", "name_bn": "স্বাস্থ্য", "icon": "🩺",
+  "description": "Find the right doctor type and check medicine prices",
+  "hints": ["দীর্ঘদিনের পিঠের ব্যথা, কোন ডাক্তার দেখাব?", "Napa 500mg price", "chest pain and breathing problem"],
+  "search_suffix": "Bangladesh",
+  "trusted_sources": [
+    {"domain": "dgda.gov.bd", "trust": 0.95},
+    {"domain": "dghs.gov.bd", "trust": 0.95},
+    {"domain": "mohfw.gov.bd", "trust": 0.9}
+  ],
+  "default_feature": "doctor_finder",
+  "features": [
+    {"id": "medicine_price", "name_en": "Medicine Price Registry", "name_bn": "ওষুধের দাম",
+     "handler": "medicine_price", "dataset": "medicines.json",
+     "keywords": ["medicine", "tablet", "mrp", "price", "ওষুধ", "দাম", "ট্যাবলেট", "napa", "ace", "seclo", "নাপা", "এইস"]},
+    {"id": "doctor_finder", "name_en": "Symptom-Based Doctor Finder", "name_bn": "লক্ষণ অনুযায়ী ডাক্তার",
+     "handler": "doctor_finder", "dataset": "doctors.json",
+     "keywords": ["doctor", "symptom", "pain", "fever", "cough", "skin", "eye", "ডাক্তার", "ব্যথা", "জ্বর", "কাশি", "চর্ম", "চোখ", "বুকে", "পেট", "মাথা", "চুলকানি"]}
+  ],
+  "guardrails": {
+    "refuse_if_no_evidence": true,
+    "blocked_patterns": ["prescribe", "prescription for", "dosage", "dose of", "what dose", "diagnose me", "কত মিলিগ্রাম", "ডোজ", "প্রেসক্রিপশন দাও", "রোগ নির্ণয়"],
+    "blocked_message_en": "I cannot give diagnosis, prescription or dosage advice. Please visit a registered doctor.",
+    "blocked_message_bn": "আমি রোগ নির্ণয়, প্রেসক্রিপশন বা ডোজ বলতে পারি না। অনুগ্রহ করে নিবন্ধিত ডাক্তারের কাছে যান।",
+    "disclaimer_en": "This is NOT medical advice. Always visit a registered doctor. In an emergency call 999.",
+    "disclaimer_bn": "এটি চিকিৎসা পরামর্শ নয়। সবসময় নিবন্ধিত ডাক্তার দেখান। জরুরি হলে ৯৯৯-এ কল করুন।"
+  }
+}
